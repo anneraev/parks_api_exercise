@@ -1,1 +1,3 @@
-logPark();
+console.log("main working");
+
+logParksList();

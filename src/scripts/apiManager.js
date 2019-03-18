@@ -1,10 +1,6 @@
-const getPark = () => {
-    return fetch("http://localhost:9099/parks")
-    .then(response => response.json())
-}
+console.log("apiManger working");
 
-const logPark = () => {
-    getPark().then(parsedParks => {
-        console.table(parsedParks);
-    })
+const fetchFromAPi = (api) => {
+    return fetch(api)
+    .then(response => response.json())
 }
