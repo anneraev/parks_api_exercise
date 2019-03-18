@@ -1,0 +1,17 @@
+#parks-container .results-list, .park__visited, .park__notVisted {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 8px;
+}
+
+.park__visited {
+    border: 1px dashed red;
+    max-width: 50%;
+    padding: 6px;
+}
+
+.park__notVisted {
+    border: 1px solid green;
+    max-width: 50%;
+    padding: 6px;
+}
